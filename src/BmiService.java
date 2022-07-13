@@ -1,5 +1,5 @@
 public class BmiService {
-    public double calculate(double height) {
+    public double calculate(double height, int weight) {
         double result;
         double exponent = 2; //возведение в степень
         if (height > 0) {
@@ -7,6 +7,6 @@ public class BmiService {
         } else {
             result = 0;
         }
-        return result;
+        return result = weight / result;
     }
 }
